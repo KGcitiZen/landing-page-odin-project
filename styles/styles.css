@@ -30,11 +30,11 @@ a {
 .logo a,
 h1 {
   color: #f9faf8;
+  font-weight: 700;
 }
 
 .nav a,
-.hero p,
-button {
+.hero p {
   color: #e5e7eb;
 }
 
@@ -57,7 +57,7 @@ button {
   gap: 25px;
 }
 
-/** Hero */
+/** Hero section */
 .hero .wrapper {
   display: flex;
   padding-top: 104px;
@@ -85,20 +85,20 @@ h1 {
 }
 
 .hero__btn button {
+  color: #fff;
   background-color: #3882f6;
   border: none;
-  padding: 8px 33px;
+  padding: 8px 34px;
   font-size: 18px;
   font-weight: 700;
   border-radius: 8px;
-  margin-left: -2px;
 }
 
 .hero__image {
   margin-top: -4px;
 }
 
-/** Info */
+/** Info section */
 .info {
   padding-bottom: 122px;
 }
@@ -124,10 +124,10 @@ h2 {
 .info__container-item img {
   display: block;
   box-sizing: border-box;
-  border: 5px solid yellow;
+  border: 4px solid #3882f6;
   width: 168px;
   height: 168px;
-  border-radius: 18px;
+  border-radius: 16px;
 }
 
 .info__container p {
@@ -135,4 +135,33 @@ h2 {
   text-align: center;
   font-size: 18px;
   margin: 7px 4px 0 0;
+}
+
+/** Quote section */
+.quote {
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 429px;
+  background-color: #e5e7eb;
+}
+
+.quote blockquote {
+  margin: 0;
+  width: 791px;
+  padding-top: 28px;
+  padding-left: 38px;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.quote p {
+  margin: 0;
+  text-align: right;
+  font-size: 24px;
+  font-weight: 700;
+  padding-right: 29px;
 }
