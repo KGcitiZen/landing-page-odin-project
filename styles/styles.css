@@ -139,7 +139,6 @@ h2 {
 
 /** Quote section */
 .quote {
-  background-color: pink;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -164,4 +163,63 @@ h2 {
   font-size: 24px;
   font-weight: 700;
   padding-right: 29px;
+}
+
+/** Sign-up section */
+
+.sign-up__banner {
+  background-color: #3882f6;
+  max-width: 800px;
+  padding-inline: 120px;
+  margin: 100px auto;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+.banner__left h3{
+  margin: 0;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.banner__left p {
+  margin: 0;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.banner__right {
+  box-sizing: border-box;
+  width: 130px;
+  height: 35px;
+  margin-top: 5px;
+}
+
+.banner__right button {
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  background-color: #3882f6;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 8px;
+}
+
+
+
+
+/** Hover effects */
+
+button:hover {
+  cursor: pointer;
+  transition: 0.2s ease-in;
+  background-color: #fff;
+  color: #3882f6;
+}
+
+button:active {
+  filter: brightness(60%);
 }
