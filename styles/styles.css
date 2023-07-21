@@ -166,7 +166,6 @@ h2 {
 }
 
 /** Sign-up section */
-
 .sign-up__banner {
   background-color: #3882f6;
   max-width: 800px;
@@ -208,7 +207,22 @@ h2 {
   border-radius: 8px;
 }
 
+/** Footer */
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-weight: 200;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.footer p {
+  margin: 0;
+  font-size: 18px;
+  padding-left: 48px;
+}
 
 
 /** Hover effects */
